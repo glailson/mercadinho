@@ -8,10 +8,10 @@ public class ProdutoTeste {
 	public static void main(String[] args) {
 		Produto p = new Produto();
 		ProdutoDAO dao = new ProdutoDAO();
-		p.setNumSequencial(2L);
-		p.setDescricao("Lapis");
-		p.setQuantidade(10);
-		p.setPreco(2.00);
+		p.setNumSequencial(3L);
+		p.setDescricao("Caneta");
+		p.setQuantidade(15);
+		p.setPreco(3.00);
 		dao.create(p);
 	}
 
